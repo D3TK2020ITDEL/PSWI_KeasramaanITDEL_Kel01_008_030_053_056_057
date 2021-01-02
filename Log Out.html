@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="icon" type="image/png" href="gambar/del.png" />
+	<meta name="csrf-param" content="_csrf">
+	<meta name="csrf-token" content="txOeNncVC5LJjs65wuFQXpdl1A2tmRmtrc-F8vsYR0THcfhgDVszyIfLrf-UkBUp2T2EfdnGSurels6nqWwscg==">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<fieldset style="border-color: " >
+		<form action="dashboard2.html" onsubmit="return validate(this)">
+			<div>
+				<div>
+					<center>
+						<img src="gambar/del.png"><br>
+						<label class="text">Institut Teknologi Del</label>
+					</center>
+				</div>
+				<div>
+					<label class="text2">Username</label>
+				</div>
+				<div>
+					<input type="text" id="username" class="text">
+				</div>
+				<div>
+					<label class="text3" for="password">Password</label>
+				</div>
+				<div>
+					<input class="text4" type="password" id="password"  class="text">
+				</div>
+				<div>
+					<input type="submit" name="Login" value="Sign In" class="login">
+				</div>
+			</div>
+		</form>	
+	</fieldset>
+</body>
+</html>

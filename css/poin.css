@@ -1,0 +1,55 @@
+.jjj {
+    background: transparent;
+    color: black;
+    width: 1250px;
+    font-family: "Times New Roman";
+}
+thead {
+
+}
+tbody {
+    background-color:red;
+}
+tfoot {
+     background-color:yellow;
+}
+.header {
+  text-align: center;
+  background-image: url(lokal.jpg);
+  color: black;
+  height: 200px;
+}
+.logo {
+    height: 100px;
+}
+.iii{
+    font-family: Times New Roman;
+    color: white;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  font-family: cursive;
+}
